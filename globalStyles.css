@@ -12,5 +12,22 @@
 
 body{
     font-family: var(--font-family-1);
-    margin: 0 auto;
+   font-size: 18px;
+   background-color: #FAF9F6;
 }
+
+:root{
+   --background:  #ffffff;
+   --border:#ece7dd;
+   --colorInput:rgb(221 221 221);
+   --buttonBue: rgb(83 84 200);
+   --colorTextButton:#f0f0f0;
+}
+
+.container:hover {
+    border: 1px solid #919191;
+    background-color: black;
+    color: white;
+    transition: 2s;
+  }
+  

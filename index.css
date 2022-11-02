@@ -1,19 +1,11 @@
-*{
-   
-}
-
-body {
-  display: flex;
-  justify-content: center;
-}
-
 .container {
   position: relative;
   top: 150px;
-  border: 1px solid #e3e3e3;
-  padding: 14px;
-  width: 50%;
+  border: 1px solid var(--border);
+  height: 430px;
   margin: 0 auto;
+  background-color: var(--background);
+  max-width: 640px;
 }
 
 .div-container-main {
@@ -23,54 +15,57 @@ body {
   gap: 19px;
 }
 
-.div-container-input{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
+.div-container-input {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
 }
 
-.div-input{
-    display: flex;
-    gap: 10px;
+.div-input {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
 }
 
-input{
+.div-input {
+  display: flex;
+  gap: 10px;
+}
+
+input {
   width: 174px;
   height: 10px;
   border-radius: 25px 0 25px 0;
   border: none;
-      background: rgb(221 221 221);
+  background: var( --colorInput);
   padding: 8px;
 }
 
-button{
+button {
   width: 116px;
   height: 41px;
   border-radius: 13px;
   border: none;
-  background: rgb(83 84 200);
+  background: var(--buttonBue);
   font-size: 22px;
-  color: #ffffff;
-
+  color: var(--colorTextButton);
 }
 
-h1{
-  color:rgb(83 84 200) ;
-}
 
-select{
+
+select {
   border-radius: 25px 0 25px 0;
   padding: 4px;
   border: none;
-  background: rgb(221 221 221);
+  background: var(--colorInput);
   width: 300px;
 }
 
-
-.container:hover{
- border: 1px solid #919191;
- background-color: black;
- color: white;
- transition: 2s;
+.container:hover {
+  border: 1px solid #919191;
+  background-color: black;
+  color: white;
+  transition: 2s;
 }
