@@ -6,7 +6,7 @@ d1.insertAdjacentHTML('afterend', `<div class="container">
   <h1>calculator</h1>
   <p>Diferent calculator</p>
   <ol>
-    <li>Digite os numeros nos quadrados</li>
+    <li>Digite os numeros onde é indicado</li>
     <li>Escolha a operação de que dejesa fazer</li>
     <li>clique no botao e veja o resultado</li>
   </ol>
