@@ -1,28 +1,25 @@
 const operation = () => {
     const inputs = document.querySelectorAll('.inputNunber')
-    const result = document.querySelector('.result')
-
-    inputs.forEach((input) => {
-        const nunberInputs = parseInt(input.value)        
+    const result = document.querySelector('.result')              
 
         let select = document.querySelector('.select')
         const indice = select.options.selectedIndex      
        
             if (select.options[indice].innerHTML === "Soma" ) {
-                result.innerText = nunberInputs + nunberInputs
+                result.innerText = parseInt(inputs[0].value) + parseInt(inputs[1].value)
              
             } else if (select.options[indice].innerHTML === "Subtração") {
-                result.innerText = nunberInputs - nunberInputs
+                result.innerText = parseInt(inputs[0].value) - parseInt(inputs[1].value)
                
             }else if (select.options[indice].innerHTML === "Multiplicação") {
-                result.innerText = nunberInputs * nunberInputs
+                result.innerText = result.innerText = parseInt(inputs[0].value) * parseInt(inputs[1].value)
                
             }else if (select.options[indice].innerHTML === "Divisão") {
-                result.innerText = nunberInputs / nunberInputs
+                result.innerText = result.innerText = parseInt(inputs[0].value) / parseInt(inputs[1].value)
                
             }       
 
-    })
+   
 
 }
 
