@@ -19,12 +19,14 @@ d1.insertAdjacentHTML('afterend', `<div class="container">
 </select>
   <div class="div-container-input">
     <div class="div-input">
-      <input class="inputNunber" type="number" />
+      <input placeholder="" class="inputNunber" type="number" />
       <span class="sinal"></span>
       <input class="inputNunber" type="number" />
-    </div>
-   
-    <button class="calculo">Calcular</button>
+    </div>   
+  <div class="div-  button">
+  <button class="calculo">Calcular</button>
+  <button class="limpar">Limpar</button>
+  </div>
   </div>
   <p>O resultado da operação é:</p>
   <p class="result"></p>

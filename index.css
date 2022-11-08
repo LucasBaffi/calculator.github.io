@@ -63,9 +63,14 @@ select {
   width: 300px;
 }
 
-.container:hover {
-  border: 1px solid #919191;
-  background-color: black;
-  color: white;
-  transition: 2s;
+.limpar{
+  width: 75px;
+  height: 41px;
+  border-radius: 13px;
+  border: none;
+  background: var(--buttonBue);
+  font-size: 22px;
+  color: var(--colorTextButton);
+  padding: 3px;
+
 }

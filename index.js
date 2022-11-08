@@ -12,12 +12,12 @@ const operation = () => {
                 result.innerText = parseInt(inputs[0].value) - parseInt(inputs[1].value)
                
             }else if (select.options[indice].innerHTML === "Multiplicação") {
-                result.innerText = result.innerText = parseInt(inputs[0].value) * parseInt(inputs[1].value)
+                result.innerText = parseInt(inputs[0].value) * parseInt(inputs[1].value)
                
             }else if (select.options[indice].innerHTML === "Divisão") {
-                result.innerText = result.innerText = parseInt(inputs[0].value) / parseInt(inputs[1].value)
+                result.innerText = parseInt(inputs[0].value) / parseInt(inputs[1].value)
                
-            }       
+            }     
 
    
 
@@ -75,5 +75,28 @@ change()
 
 
 
+// ************limpar campos**************************
+const limpar = () => {
+    // const select = document.querySelector('.select')
+    // const indice = select.options[0]  
+    // const nameOperation = indice.innerText = ''  
+
+    const select = document.querySelector('.sinal').innerHTML = ''          
+    const clean = document.querySelector('.result').innerHTML = ''
+    const inputs = document.querySelectorAll('.inputNunber')
+    const inputs0 =  inputs[0].value = ''
+    const inputs1 =  inputs[1].value = ''
 
 
+}
+
+const buttonClean = () => {
+    const button = document.querySelector('.limpar')   
+    button.addEventListener('click', (event) => {   
+    event.preventDefault()
+    limpar()
+
+    })
+}
+
+buttonClean()

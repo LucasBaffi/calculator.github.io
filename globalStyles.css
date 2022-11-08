@@ -24,10 +24,3 @@ body{
    --colorTextButton:#f0f0f0;
 }
 
-.container:hover {
-    border: 1px solid #919191;
-    background-color: black;
-    color: white;
-    transition: 2s;
-  }
-  
